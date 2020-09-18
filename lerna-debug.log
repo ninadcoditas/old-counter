@@ -1,0 +1,165 @@
+0 silly argv {
+0 silly argv   _: [ 'bootstrap' ],
+0 silly argv   hoist: true,
+0 silly argv   scope: '@orxe-components/counter',
+0 silly argv   lernaVersion: '3.22.1',
+0 silly argv   '$0': 'C:\\Users\\Coditas\\AppData\\Roaming\\npm\\node_modules\\lerna\\cli.js'
+0 silly argv }
+1 notice cli v3.22.1
+2 verbose rootPath C:\Ninad\Projects\tavisca\orxe-components\orxe-components
+3 info versioning independent
+4 verbose hoist using globs ["**","!@orxe-devkit/sass-to-ts"]
+5 notice filter including "@orxe-components/counter"
+6 info filter [ '@orxe-components/counter' ]
+7 warn bootstrap Installing local packages that do not match filters from registry
+8 silly npmConfig {
+8 silly npmConfig   registry: undefined,
+8 silly npmConfig   npmClient: 'npm',
+8 silly npmConfig   npmClientArgs: [ '--no-save' ],
+8 silly npmConfig   mutex: undefined
+8 silly npmConfig }
+9 info Bootstrapping 1 package
+10 verbose lifecycle preinstall
+11 silly lifecycle No script for "preinstall" in "@orxe-components/counter", continuing
+12 warn EHOIST_ROOT_VERSION The repository root depends on lit-element@^2.3.1, which differs from the more common lit-element@^2.2.1.
+13 warn EHOIST_PKG_VERSION "@orxe-components/counter" package depends on lit-element@^2.2.1, which differs from the hoisted lit-element@^2.3.1.
+14 warn EHOIST_ROOT_VERSION The repository root depends on lit-html@^1.2.1, which differs from the more common lit-html@^1.1.2.
+15 warn EHOIST_PKG_VERSION "@orxe-components/counter" package depends on lit-html@^1.1.2, which differs from the hoisted lit-html@^1.2.1.
+16 silly hasDependencyInstalled orxe-components @babel/plugin-proposal-class-properties
+17 silly hasDependencyInstalled orxe-components @babel/plugin-proposal-decorators
+18 silly hasDependencyInstalled orxe-components @orxe-devkit/axe
+19 silly hasDependencyInstalled orxe-components @orxe-devkit/jest-config
+20 silly hasDependencyInstalled orxe-components @orxe-devkit/lint
+21 silly hasDependencyInstalled orxe-components @orxe-devkit/webpack-config
+22 silly hasDependencyInstalled orxe-components cross-env
+23 silly hasDependencyInstalled orxe-components lerna
+24 silly hasDependencyInstalled orxe-components npm-run-all
+25 silly hasDependencyInstalled orxe-components rimraf
+26 silly hasDependencyInstalled orxe-components typedoc
+27 silly hasDependencyInstalled orxe-components typedoc-plugin-external-module-name
+28 silly hasDependencyInstalled orxe-components typedoc-plugin-markdown
+29 silly hasDependencyInstalled orxe-components typedoc-plugin-no-inherit
+30 silly hasDependencyInstalled orxe-components typescript
+31 silly hasDependencyInstalled orxe-components web-component-analyzer
+32 silly hasDependencyInstalled orxe-components @orxe-components/button
+33 silly hasDependencyInstalled orxe-components @orxe-culture/core
+34 silly hasDependencyInstalled orxe-components @orxe-culture/lit
+35 silly hasDependencyInstalled orxe-components lit-element
+36 silly hasDependencyInstalled orxe-components lit-html
+37 silly hasDependencyInstalled orxe-components run-p
+38 silly hasDependencyInstalled orxe-components webpack-dev-server
+39 silly hasDependencyInstalled @orxe-components/counter lit-element
+40 silly hasDependencyInstalled @orxe-components/counter lit-html
+41 silly hasDependencyInstalled @orxe-components/counter @orxe-devkit/sass-to-ts
+42 silly root dependencies {}
+43 silly leaf dependencies {}
+44 info Installing external dependencies
+45 verbose actions 3 actions, concurrency 4
+46 info hoist Installing hoisted dependencies into root
+47 silly npmInstallDependencies orxe-components [
+47 silly npmInstallDependencies   '@babel/plugin-proposal-class-properties@^7.8.3',
+47 silly npmInstallDependencies   '@babel/plugin-proposal-decorators@^7.8.3',
+47 silly npmInstallDependencies   '@orxe-devkit/axe@^1.0.1',
+47 silly npmInstallDependencies   '@orxe-devkit/jest-config@^1.0.2',
+47 silly npmInstallDependencies   '@orxe-devkit/lint@1.0.0',
+47 silly npmInstallDependencies   '@orxe-devkit/webpack-config@1.0.2',
+47 silly npmInstallDependencies   'cross-env@^6.0.3',
+47 silly npmInstallDependencies   'lerna@^3.20.2',
+47 silly npmInstallDependencies   'npm-run-all@^4.1.5',
+47 silly npmInstallDependencies   'rimraf@^3.0.2',
+47 silly npmInstallDependencies   'typedoc@^0.16.11',
+47 silly npmInstallDependencies   'typedoc-plugin-external-module-name@^3.0.0',
+47 silly npmInstallDependencies   'typedoc-plugin-markdown@^2.2.17',
+47 silly npmInstallDependencies   'typedoc-plugin-no-inherit@^1.1.10',
+47 silly npmInstallDependencies   'typescript@3.7.4',
+47 silly npmInstallDependencies   'web-component-analyzer@^1.0.3',
+47 silly npmInstallDependencies   '@orxe-components/button@^1.0.31',
+47 silly npmInstallDependencies   '@orxe-culture/core@^1.0.0',
+47 silly npmInstallDependencies   '@orxe-culture/lit@^1.0.0',
+47 silly npmInstallDependencies   'lit-element@^2.3.1',
+47 silly npmInstallDependencies   'lit-html@^1.2.1',
+47 silly npmInstallDependencies   'run-p@0.0.0',
+47 silly npmInstallDependencies   'webpack-dev-server@^3.11.0'
+47 silly npmInstallDependencies ]
+48 silly npmInstallDependencies backup C:\Ninad\Projects\tavisca\orxe-components\orxe-components\package.json
+49 verbose hoist nothing to prune
+50 silly npmInstallDependencies @orxe-components/counter [
+50 silly npmInstallDependencies   'lit-element@^2.2.1',
+50 silly npmInstallDependencies   'lit-html@^1.1.2',
+50 silly npmInstallDependencies   '@orxe-devkit/sass-to-ts@^1.0.0'
+50 silly npmInstallDependencies ]
+51 silly npmInstallDependencies backup C:\Ninad\Projects\tavisca\orxe-components\orxe-components\packages\counter\package.json
+52 silly npmInstallDependencies writing tempJson {
+52 silly npmInstallDependencies   name: 'orxe-components',
+52 silly npmInstallDependencies   version: '0.0.1',
+52 silly npmInstallDependencies   description: '',
+52 silly npmInstallDependencies   main: 'index.js',
+52 silly npmInstallDependencies   author: 'ORXe',
+52 silly npmInstallDependencies   license: 'ISC',
+52 silly npmInstallDependencies   'lint-staged': {
+52 silly npmInstallDependencies     '*.{js,ts}': [ 'eslint --fix', 'prettier --write', 'git add' ],
+52 silly npmInstallDependencies     '*.md': [ 'prettier --write', 'git add' ]
+52 silly npmInstallDependencies   },
+52 silly npmInstallDependencies   devDependencies: {
+52 silly npmInstallDependencies     '@babel/plugin-proposal-class-properties': '^7.8.3',
+52 silly npmInstallDependencies     '@babel/plugin-proposal-decorators': '^7.8.3',
+52 silly npmInstallDependencies     '@orxe-devkit/axe': '^1.0.1',
+52 silly npmInstallDependencies     '@orxe-devkit/jest-config': '^1.0.2',
+52 silly npmInstallDependencies     '@orxe-devkit/lint': '1.0.0',
+52 silly npmInstallDependencies     '@orxe-devkit/webpack-config': '1.0.2',
+52 silly npmInstallDependencies     'cross-env': '^6.0.3',
+52 silly npmInstallDependencies     lerna: '^3.20.2',
+52 silly npmInstallDependencies     'npm-run-all': '^4.1.5',
+52 silly npmInstallDependencies     rimraf: '^3.0.2',
+52 silly npmInstallDependencies     typedoc: '^0.16.11',
+52 silly npmInstallDependencies     'typedoc-plugin-external-module-name': '^3.0.0',
+52 silly npmInstallDependencies     'typedoc-plugin-markdown': '^2.2.17',
+52 silly npmInstallDependencies     'typedoc-plugin-no-inherit': '^1.1.10',
+52 silly npmInstallDependencies     typescript: '3.7.4',
+52 silly npmInstallDependencies     'web-component-analyzer': '^1.0.3'
+52 silly npmInstallDependencies   },
+52 silly npmInstallDependencies   bit: {
+52 silly npmInstallDependencies     env: { compiler: 'bit.envs/compilers/typescript@3.1.39' },
+52 silly npmInstallDependencies     componentsDefaultDirectory: 'components/{name}',
+52 silly npmInstallDependencies     packageManager: 'npm'
+52 silly npmInstallDependencies   },
+52 silly npmInstallDependencies   dependencies: {
+52 silly npmInstallDependencies     '@orxe-components/button': '^1.0.31',
+52 silly npmInstallDependencies     '@orxe-culture/core': '^1.0.0',
+52 silly npmInstallDependencies     '@orxe-culture/lit': '^1.0.0',
+52 silly npmInstallDependencies     'lit-element': '^2.3.1',
+52 silly npmInstallDependencies     'lit-html': '^1.2.1',
+52 silly npmInstallDependencies     'run-p': '0.0.0',
+52 silly npmInstallDependencies     'webpack-dev-server': '^3.11.0'
+52 silly npmInstallDependencies   }
+52 silly npmInstallDependencies }
+53 silly npmInstallDependencies writing tempJson {
+53 silly npmInstallDependencies   name: '@orxe-components/counter',
+53 silly npmInstallDependencies   version: '0.0.1',
+53 silly npmInstallDependencies   description: 'Orxe Component',
+53 silly npmInstallDependencies   main: 'dist/index.js',
+53 silly npmInstallDependencies   types: 'dist/types',
+53 silly npmInstallDependencies   files: [ 'dist' ],
+53 silly npmInstallDependencies   license: 'UNLICENSED',
+53 silly npmInstallDependencies   engines: { node: '>=8.0.0' },
+53 silly npmInstallDependencies   'lint-staged': {
+53 silly npmInstallDependencies     '*.{js,ts}': [ 'eslint --fix', 'prettier --write', 'git add' ],
+53 silly npmInstallDependencies     '*.md': [ 'prettier --write', 'git add' ]
+53 silly npmInstallDependencies   },
+53 silly npmInstallDependencies   author: 'ORXe',
+53 silly npmInstallDependencies   dependencies: { 'lit-element': '^2.2.1', 'lit-html': '^1.1.2' },
+53 silly npmInstallDependencies   devDependencies: { '@orxe-devkit/sass-to-ts': '^1.0.0' },
+53 silly npmInstallDependencies   publishConfig: {
+53 silly npmInstallDependencies     registry: 'https://packages.common.cnxloyalty.com/repository/npm-hosted/'
+53 silly npmInstallDependencies   }
+53 silly npmInstallDependencies }
+54 silly getExecOpts C:\Ninad\Projects\tavisca\orxe-components\orxe-components undefined
+55 silly npmInstall [ 'npm', [ 'install', '--no-save' ] ]
+56 silly getExecOpts C:\Ninad\Projects\tavisca\orxe-components\orxe-components\packages\counter undefined
+57 silly npmInstall [ 'npm', [ 'install', '--global-style', '--no-save' ] ]
+58 silly npmInstallDependencies cleanup C:\Ninad\Projects\tavisca\orxe-components\orxe-components\package.json
+59 error Error: ENOENT: no such file or directory, rename 'C:\Ninad\Projects\tavisca\orxe-components\orxe-components\package.json.lerna_backup' -> 'C:\Ninad\Projects\tavisca\orxe-components\orxe-components\package.json'
+59 error     at Object.renameSync (fs.js:741:3)
+59 error     at cleanup (C:\Users\Coditas\AppData\Roaming\npm\node_modules\lerna\node_modules\@lerna\npm-install\npm-install.js:70:10)
+59 error     at done (C:\Users\Coditas\AppData\Roaming\npm\node_modules\lerna\node_modules\@lerna\npm-install\npm-install.js:78:7)
+59 error     at runMicrotasks (<anonymous>)
