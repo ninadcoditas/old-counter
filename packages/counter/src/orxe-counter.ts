@@ -37,13 +37,17 @@ export default class OrxeCounter extends LitElement {
   */
   render() {
     return html`
-    <div class="container">
-    <div class="element">
-    <button @click="${this.decrement}" id="decrement"> - </button>
+    <div class="counter_container">
+    <div class="counter_element">
+    <button @click="${this.decrement}" id="decrement"> 
+    - 
+    </button>
     </div>  
-    <div class="element">${this.value}</div>
-    <div class="element">
-    <button @click="${this.increment}" id="increment"> + </button>
+    <div class="counter_element">${this.value}</div>
+    <div class="counter_element">
+    <button @click="${this.increment}" id="increment">
+    + 
+    </button>
     </div>
     </div>
     `;
