@@ -1,0 +1,16 @@
+:host{
+  --counter-background-color: $background-01;
+  --counter-disabled-color: $disabled-text;
+  --counter-enabled-state:$secondary;
+  --counter-font-family: $primary-font-family
+  --counter-font-color:	$primary-text
+  --counter-supporting-font-family: $primary-font-family;
+  --counter-supporting-label-color:$secondary-text;
+
+}
+$counter-opacity:100%;
+$counter-font-size:1em;
+$counter-font-weight:semibold;
+// $counter-supporting-label-size:1.4em;   
+$counter-supporting-label-size:2em;   
+$counter-supporting-label-weight:regular;
